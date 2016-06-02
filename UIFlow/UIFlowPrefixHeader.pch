@@ -1,0 +1,25 @@
+//
+//  UIFlowPrefixHeader.pch
+//  UIFlow
+//
+//  Created by 李敏 on 16/6/1.
+//  Copyright © 2016年 adways. All rights reserved.
+//
+
+#ifndef UIFlowPrefixHeader_pch
+#define UIFlowPrefixHeader_pch
+
+#import "Common.h"
+#define Screen_Width [UIScreen mainScreen].bounds.size.width
+#define Screen_Height [UIScreen mainScreen].bounds.size.height
+#define Tag_Group_Symbol @"#"
+#define Tag_Font_Size 12
+#define Tag_Title_Margin 8
+#define Tag_Margin 8
+#define Tag_Line_Margin 35
+#define Navigation_Bar_Height 44 
+#define Animation_Seconds 0.3
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* UIFlowPrefixHeader_pch */
